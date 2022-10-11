@@ -7,6 +7,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .main{
     backdrop-filter: blur(4px);
@@ -48,30 +49,96 @@ body{
     margin-top: 3%;
     padding-bottom: 5%;
 }
-.numbutton{
-    background-color: #161a1d;
-    color: #e9ecef;
+
+
+.opbutton {
+	box-shadow:inset 0px 0px 14px -3px #c7c7c7;
+	background:linear-gradient(to bottom, #d6d6d6 5%, #a3a3a3 100%);
+	background-color:#d6d6d6;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fffcff;
+	font-family:Arial;
+	font-size:24px;
+    width: 70px;
+    height: 50px;
+    font-size: 24px;
+    margin: 0 30px;
+    border: none;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #cccccc;
+}
+.opbutton:hover {
+	background:linear-gradient(to bottom, #a3a3a3 5%, #d6d6d6 100%);
+	background-color:#a3a3a3;
+}
+.opbutton:active {
+	position:relative;
+	top:1px;
+}
+.numbutton {
+	box-shadow:inset 0px 0px 14px -3px #1f1817;
+	background:linear-gradient(to bottom, #666363 5%, #0a0a0a 100%);
+	background-color:#666363;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
     width: 70px;
     height: 50px;
     border-radius: 7px;
     font-size: 24px;
     margin: 0 30px;
     border: none;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #615a59;
 }
-.opbutton{
-    background-color: #8d99ae;
-    color: #e9ecef;
+.numbutton:hover {
+	background:linear-gradient(to bottom, #0a0a0a 5%, #666363 100%);
+	background-color:#0a0a0a;
+}
+.numbutton:active {
+	position:relative;
+	top:1px;
+}
+.clbutton {
+	box-shadow:inset 0px 0px 14px -3px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
     width: 70px;
     height: 50px;
     border-radius: 7px;
-    font-size: 24px;
-    margin: 0 30px;
+	font-size:24px;
+	font-weight:bold;
     margin: 0 30px;
     border: none;
+	text-shadow:0px 0px 0px #b23e35;
 }
-.clbutton{
-    background-color: #ba181b;
-    color: #e9ecef;
+.clbutton:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.clbutton:active {
+	position:relative;
+	top:1px;
+}
+.bkbutton {
+	box-shadow:inset 0px 0px 14px -3px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f7f7;
+	font-family:Arial;
     width: 70px;
     height: 50px;
     border-radius: 7px;
@@ -79,17 +146,17 @@ body{
     text-transform: capitalize;
     margin: 0 30px;
     border: none;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffee66;
 }
-.bkbutton{
-    background-color: #f5cb5c;
-    color: #e9ecef;
-    width: 70px;
-    height: 50px;
-    border-radius: 7px;
-    font-size: 22px;
-    text-transform: capitalize;
-    margin: 0 30px;
-    border: none;
+.bkbutton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.bkbutton:active {
+	position:relative;
+	top:1px;
 }
 
 /* @media only screen and (max-width: 603px) {

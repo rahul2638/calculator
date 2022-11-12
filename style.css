@@ -35,9 +35,7 @@ body{
 
 
 }
-/* .parent{
-    margin-bottom: 10%;
-}  */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

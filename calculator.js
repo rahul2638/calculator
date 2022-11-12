@@ -1,19 +1,17 @@
 console.log('hello world');
+var x;
+x=cal.screen.value;
 
-var display = document.getElementById('display'),
-    clear = document.getElementsByClassName('clbutton'),
-    back = document.getElementsByClassName('bkbutton'),
-    operator = document.getElementsByClassName('opbutton'),
-    num = document.getElementsByClassName('numbutton'),
-    equal = document.getElementsByClassName('eqbutton'),
-    currentnumValue,
-    currentOperator,
-    displayValue,
-    result,
-    backspaceValue;
-
-
-function dataInput() {
-    currentnumValue = this.value;
-    display.value += currentnumValue;
+function valuebutton(e){
+    x += e.value;
 }
+function clear(){
+    x = null;
+} 
+function caluclate(){
+    x = eval(x);
+}
+
+function back(){
+    
+} 
